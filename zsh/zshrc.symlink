@@ -12,6 +12,12 @@ then
   source ~/.localrc
 fi
 
+
+# add ~/bin to your path if it exists
+if [[ -d "~/bin" ]]; then
+  PATH=~/bin:$PATH
+fi	
+
 # all of our zsh files
 typeset -U config_files
 config_files=($ZSH/**/*.zsh)
