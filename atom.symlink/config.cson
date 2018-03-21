@@ -16,6 +16,14 @@
       beautify_on_save: true
     ruby:
       default_beautifier: "Ruby Beautify"
+  "atom-material-ui":
+    colors:
+      paintCursor: true
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    ui:
+      panelShadows: true
   "autocomplete-modules":
     babelPluginModuleResolver: true
     webpack: true
@@ -35,12 +43,9 @@
         "BUCK"
       ]
     disabledPackages: [
-      "background-tips"
       "exception-reporting"
-      "metrics"
       "react"
       "linter-rubocop"
-      "tree-view"
     ]
     followSymlinks: false
     hideGitIgnoredFiles: true
@@ -54,8 +59,8 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "one-light-syntax"
+      "atom-material-ui"
+      "base16-tomorrow-light-theme"
     ]
   editor:
     fontFamily: "Menlo"
@@ -72,6 +77,7 @@
   "linter-rubocop": {}
   "linter-ui-default":
     panelHeight: 301
+  "markdown-preview": {}
   nuclide:
     "atom-ide-code-format":
       formatOnType: false
