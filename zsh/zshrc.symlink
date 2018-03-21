@@ -14,9 +14,11 @@ fi
 
 
 # add ~/bin to your path if it exists
-if [[ ! -d ~/bin ]]; then
+if [[ ! -d ~/bin ]]
   PATH=~/bin:$PATH
-fi	
+then
+
+fi
 
 # all of our zsh files
 typeset -U config_files
