@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'homebrew/cask'
 tap 'puma/puma'
 
 brew 'ack'
@@ -11,3 +12,4 @@ brew 'readline'
 brew 'unrar'
 brew 'wget'
 brew 'crystal'
+brew 'rbenv'
